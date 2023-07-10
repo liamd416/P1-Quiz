@@ -1,52 +1,52 @@
 const numbersQuiz = [
     { //1
-        question_title:""
+        question_title:"",
         correct:"A",
         option: {
-            A:
-            B:
-            C:
-            D:
+            A:"",
+            B:"",
+            C:"",
+            D:"",
         }
     },
     { //2
-        question_title:""
+        question_title:"",
         correct:"A",
         option: {
-            A:
-            B:
-            C:
-            D:
+            A:"",
+            B:"",
+            C:"",
+            D:"",
         }
     },
     { //3
-        question_title:""
+        question_title:"",
         correct:"A",
         option: {
-            A:
-            B:
-            C:
-            D:
+            A:"",
+            B:"",
+            C:"",
+            D:"",
         }
     },
     { //4
-        question_title:""
+        question_title:"",
         correct:"A",
         option: {
-            A:
-            B:
-            C:
-            D:
+            A:"",
+            B:"",
+            C:"",
+            D:"",
         }
     },
     { //5
-        question_title:""
+        question_title:"",
         correct:"A",
         option: {
-            A:
-            B:
-            C:
-            D:
+            A:"",
+            B:"",
+            C:"",
+            D:"",
         }
     },
     { //6
@@ -88,7 +88,18 @@ const numbersQuiz = [
             C:"",
             D:"",
         }
+    },
+    { //10
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
     }
+
 ]
 
 const marvelQuiz = [
