@@ -228,83 +228,83 @@ const starwarsQuiz = [
         }
     },
     { //3
-        question_title:"",
-        correct:"A",
+        question_title:"What was the name of the planet where clones were grown?",
+        correct:"D",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Tatooine",
+            B:"Mustafar",
+            C:"Coruscant",
+            D:"Kamino",
         }
     },
     { //4
-        question_title:"",
+        question_title:"Where did Obi-Wan Kenobi die?",
         correct:"A",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Death Star",
+            B:"Starkiller Base",
+            C:"On a Star Destroyer",
+            D:"In the Jedi Temple",
         }
     },
     { //5
-        question_title:"",
-        correct:"A",
+        question_title:"What was Finn's Stormtrooper number?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"FN-2186",
+            B:"FN-2187",
+            C:"ST-100",
+            D:"CT-108",
         }
     },
     { //6
-        question_title:"",
-        correct:"A",
+        question_title:"Was name did Obi-Wan Kenobi go by on Tatooine?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Obi Skywalker",
+            B:"Ben Kenobi",
+            C:"Ben Stiller",
+            D:"Tobi Kenobi",
         }
     },
     { //7
-        question_title:"",
-        correct:"A",
+        question_title:"That's not a moon, That's a...",
+        correct:"C",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Plane",
+            B:"Fast-Food Restaurant",
+            C:"Space Station",
+            D:"Planet",
         }
     },
     { //8
-        question_title:"",
-        correct:"A",
+        question_title:"What Species is Jar Jar Binks",
+        correct:"D",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Ewok",
+            B:"Wookie",
+            C:"Grogu",
+            D:"Gungan",
         }
     },
     { //9
-        question_title:"",
-        correct:"A",
+        question_title:"What character was held captive on the Death Star?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Obi-Wan Kenobi",
+            B:"Princess Leia Organa",
+            C:"Yoda",
+            D:"Darth Vader",
         }
     },
     { //10
-        question_title:"",
-        correct:"A",
+        question_title:"Who cut off (part of) Anakin Skywalker's arm in Attack of the Clones?",
+        correct:"D",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Darth Sidious",
+            B:"Darth Maul",
+            C:"Jar Jar Binks",
+            D:"COunt Dooku",
         }
     }
 
