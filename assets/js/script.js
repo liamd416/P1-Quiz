@@ -103,7 +103,97 @@ const numbersQuiz = [
 ]
 
 const marvelQuiz = [
-    {
+    { //1
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //2
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //3
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //4
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //5
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //6
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //7
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //8
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //9
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //10
         question_title:"",
         correct:"A",
         option: {
@@ -113,10 +203,101 @@ const marvelQuiz = [
             D:"",
         }
     }
+
 ]
 
 const starwarsQuiz = [
-    {
+    { //1
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //2
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //3
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //4
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //5
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //6
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //7
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //8
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //9
+        question_title:"",
+        correct:"A",
+        option: {
+            A:"",
+            B:"",
+            C:"",
+            D:"",
+        }
+    },
+    { //10
         question_title:"",
         correct:"A",
         option: {
@@ -126,4 +307,5 @@ const starwarsQuiz = [
             D:"",
         }
     }
+
 ]
