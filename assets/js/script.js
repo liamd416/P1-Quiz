@@ -115,7 +115,7 @@ const marvelQuiz = [
     },
     { //2
         question_title:"What type of radiation causes Bruce Banner to become Hulk?",
-        correct:"A",
+        correct:"B",
         option: {
             A:"Beta",
             B:"Gamma",
@@ -125,7 +125,7 @@ const marvelQuiz = [
     },
     { //3
         question_title:"Where is Captain America from?",
-        correct:"A",
+        correct:"D",
         option: {
             A:"New York",
             B:"Harlem",
@@ -135,7 +135,7 @@ const marvelQuiz = [
     },
     { //4
         question_title:"What type of doctor is Doctor Strange",
-        correct:"A",
+        correct:"C",
         option: {
             A:"Time-Lord",
             B:"Dentist",
@@ -145,7 +145,7 @@ const marvelQuiz = [
     },
     { //5
         question_title:"Which actor plays Spider-man in the MCU?",
-        correct:"A",
+        correct:"D",
         option: {
             A:"Tom Hanks",
             B:"Tom Cruise",
@@ -155,7 +155,7 @@ const marvelQuiz = [
     },
     { //6
         question_title:"What is the name of Thor's Hammer?",
-        correct:"A",
+        correct:"D",
         option: {
             A:"Mew Mew",
             B:"Jonathan",
@@ -165,7 +165,7 @@ const marvelQuiz = [
     },
     { //7
         question_title:"What was the name of Tony Stark's father?",
-        correct:"A",
+        correct:"B",
         option: {
             A:"JARVIS",
             B:"Howard Stark",
@@ -174,33 +174,33 @@ const marvelQuiz = [
         }
     },
     { //8
-        question_title:"",
-        correct:"A",
+        question_title:"How many Infinity Stones are there?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"400",
+            B:"6",
+            C:"8",
+            D:"2",
         }
     },
     { //9
-        question_title:"",
-        correct:"A",
+        question_title:"Where does the Black Panther live?",
+        correct:"C",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Asgard",
+            B:"France",
+            C:"Wakanda",
+            D:"America",
         }
     },
     { //10
-        question_title:"",
+        question_title:"What is Pepper Potts allergic to?",
         correct:"A",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Nuts",
+            B:"Strawberries",
+            C:"Gluten",
+            D:"Meat",
         }
     }
 
