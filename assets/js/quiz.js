@@ -109,7 +109,7 @@ const numbersQuiz = [
 
 ]
 
-const marvelQuiz = [
+/* const marvelQuiz = [ 
     { //1
         question_title:"What is Spider-man's real name?",
         correct:"A",
@@ -211,9 +211,9 @@ const marvelQuiz = [
         }
     }
 
-]
+] */
 
-const starwarsQuiz = [
+/*const starwarsQuiz = [
     { //1
         question_title:"What colour is Luke's first Lightsaber blade?",
         correct:"C",
@@ -315,7 +315,7 @@ const starwarsQuiz = [
         }
     }
 
-];
+]; */
 
 // ===| Functions for the project |===
 
