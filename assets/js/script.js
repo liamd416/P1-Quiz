@@ -4,6 +4,7 @@ const submitButton = document.getElementById('submit');
 const restartButton = document.getElementById('restart');
 const feedbackContainer = document.getElementById('feedback');
 
+// ===| Quiz question arrays |===
 const numbersQuiz = [
     { //1
         question_title: "What is 10+12?",
@@ -310,8 +311,132 @@ const starwarsQuiz = [
             A:"Darth Sidious",
             B:"Darth Maul",
             C:"Jar Jar Binks",
-            D:"COunt Dooku",
+            D:"Count Dooku",
         }
     }
 
-]
+];
+
+// ===| Functions for the project |===
+
+function restartQuiz() {
+    // Show quiz/submit button and hid restart button.
+    quizContainer.hidden = false;
+    submitButton.hidden = false;
+    restartButton.hidden = true;
+    feedbackContainer.hidden = true;
+
+    // Reset all quiz values entered.
+}
+
+/**
+ * 
+ * This function handles our marking of the quiz for each
+ * of the users inputs and generates the feedback results
+ * as a HTML list.
+ * 
+ * It takes one input which consists of an array of objects,
+ * these objects hold the properties for the question title, 
+ * options and correct answer.
+ * 
+ * @param {Array<Object>} quizInput 
+ */
+function showResults(quizInput) {
+    const htmlQuizFeedback = ['<h1>Feedback Results: </h1>'];// Store the quiz feedback elements.
+    const numbersQuizLength = quizInput.length; // Length of chosen quiz.
+    const answerContainers = quizContainer.querySelectorAll('.options');// Retrieve all the option containers from our quiz container - these contain the radio buttons and the user input.
+
+    let correct = 0;// The number of correct answers, default to 0 until all user selections are checked.
+
+    // Loop through all the questions and check the user selected option against the correct one.
+    for (let i = 0; i < numbersQuizLength; i += 1) {
+        const currentQuestion = quizInput[i];
+        const answerContainer = answerContainers[i];// The HTML elements for this question including the radio button inputs.
+        const selector = `input[name=question${i}]:checked`;// We select the input by the name set when we generated the input - specifically the checked property.
+        const userAnswer = answerContainer.querySelector(selector)?.value;// Retrieve the letter of the radio button the user checked, the ? check if the value property exists and and prevents an error when retrieving a property of null. 
+
+        if (userAnswer === currentQuestion.correct) {// Correct answers.
+            correct += 1;// Increase correct count.
+
+            htmlQuizFeedback.push(
+                `<div>
+                    <h3>${currentQuestion.question_title}</h3>
+                    <p> You chose answer ${userAnswer || 'none selected'} this is correct!</p>
+                </div>
+                `
+            );
+        }
+        else {// Wrong answer or no input from user.
+            htmlQuizFeedback.push(
+                `<div>
+                    <h3>${currentQuestion.question_title}</h3>
+                    <p> You chose answer ${userAnswer || 'none selected'} this is incorrect, the correct answer is ${currentQuestion.correct}</p>
+                </div>
+                `
+            );
+        }
+    }
+
+    // Hide quiz/submit button and show restart quiz button/ feedback.
+    quizContainer.hidden = true;
+    submitButton.hidden = true;
+    restartButton.hidden = false;
+    feedbackContainer.hidden = false;
+
+    // Output 
+    htmlQuizFeedback.push(`<h3>You Scored: ${correct} out of ${quizInput.length}!</h3>`);// Add final score to end of array.
+
+    feedbackContainer.innerHTML = htmlQuizFeedback.join('');// Add the html to the feedback container - containing all feedback.
+}
+
+/**
+ * 
+ * This function generates our HTML for the quiz. 
+ * It takes one input which consists of an array of objects,
+ * these objects hold the properties for the question title, 
+ * options and correct answer.
+ * 
+ * @param {Array<Object>} quizInput 
+ */
+function generateQuiz(quizInput) {
+    const htmlQuizOutput = [];// Store the quiz elements as an array.
+    const numbersQuizLength = quizInput.length; // Length of chosen quiz.
+
+    // Loop through all questions in the quiz and then generate the container / radio buttons for each option.
+    for (let i = 0; i < numbersQuizLength; i += 1) {
+        const currentQuestion = quizInput[i];// current question object.
+        const options = currentQuestion.options;// current questions options object.
+
+        const questions = [];// use an array to store the html (as a string) for each question.
+
+        // Generate the radio button options for the question, loop through each property of the object.
+        for (letter in options) {
+            questions.push(// Note we set the name of these inputs to be "question${index}", this allows us to group the options together and when we check the answers to see what option was checked.
+                `<div>
+                    <input name="question${i}" type="radio" value="${letter}">
+                    <span>${letter} - ${currentQuestion.options[letter]}</span>
+                </div>
+                `);
+        }
+
+        // Add this question to our output with a formatted title and the option radio buttons joined together.
+        htmlQuizOutput.push(
+            `<div class="question"> 
+                <h2>${currentQuestion.question_title}</h2>
+            </div>
+            <div class="options"> 
+                ${questions.join('')}
+            </div>`
+        );
+    }
+
+    quizContainer.innerHTML = htmlQuizOutput.join('');// Add the html to the quiz container - containing all questions etc.
+}
+
+
+
+generateQuiz(numbersQuiz);// Generate the content for the quiz.
+
+// ===| The event listeners for the quiz |===
+submitButton.addEventListener('click', () => showResults(numbersQuiz));// set an anonymous function () => so the code does not run straight away.
+restartButton.addEventListener('click', () => restartQuiz());
