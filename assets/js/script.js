@@ -1,3 +1,9 @@
+// ===| HTML DOM references |===
+const quizContainer = document.getElementById('quiz_container');
+const submitButton = document.getElementById('submit');
+const restartButton = document.getElementById('restart');
+const feedbackContainer = document.getElementById('feedback');
+
 const numbersQuiz = [
     { //1
         question_title: "What is 10+12?",
