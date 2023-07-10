@@ -208,23 +208,23 @@ const marvelQuiz = [
 
 const starwarsQuiz = [
     { //1
-        question_title:"",
-        correct:"A",
+        question_title:"What colour is Luke's first Lightsaber blade?",
+        correct:"C",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Red",
+            B:"White",
+            C:"Blue",
+            D:"Black",
         }
     },
     { //2
-        question_title:"",
-        correct:"A",
+        question_title:"What is Darth Vader's real name?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"Galen Marek",
+            B:"Anakin Skywalker",
+            C:"Luke Skywalker",
+            D:"Yoda Starkiller",
         }
     },
     { //3
