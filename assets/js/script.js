@@ -1,20 +1,20 @@
 const numbersQuiz = [
     { //1
         question_title: "What is 10+12?",
-        correct:"A",
+        correct:"D",
         option: {
-            A:"22",
+            A:"2",
             B:"2022",
             C:"222",
-            D:"2",
+            D:"22",
         }
     },
     { //2
         question_title:"What is 10-2?",
-        correct:"A",
+        correct:"B",
         option: {
-            A:"8",
-            B:"80",
+            A:"80",
+            B:"8",
             C:"88",
             D:"4",
         }
@@ -23,80 +23,80 @@ const numbersQuiz = [
         question_title: "What is 10x12?",
         correct:"A",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"120",
+            B:"12",
+            C:"22",
+            D:"1",
         }
     },
     { //4
-        question_title:"What is 5÷2?",
-        correct:"A",
+        question_title:"What is 6÷2?",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"8",
+            B:"3",
+            C:"12",
+            D:"24",
         }
     },
     { //5
         question_title:"What is 5+6?",
-        correct:"A",
+        correct:"D",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"10",
+            B:"36",
+            C:"56",
+            D:"11",
         }
     },
     { //6
         question_title:"What is 65-12?",
-        correct:"A",
+        correct:"B",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"62",
+            B:"53",
+            C:"12",
+            D:"21",
         }
     },
     { //7
         question_title:"What is 46x10?",
         correct:"A",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"460",
+            B:"46",
+            C:"4",
+            D:"6",
         }
     },
     { //8
         question_title:"What is 20÷4?",
-        correct:"A",
+        correct:"C",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"24",
+            B:"16",
+            C:"5",
+            D:"10",
         }
     },
     { //9
         question_title:"What is 56+72?",
-        correct:"A",
+        correct:"C",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"5672",
+            B:"115",
+            C:"128",
+            D:"132",
         }
     },
     { //10
         question_title:"What is 562-72?",
         correct:"A",
         option: {
-            A:"",
-            B:"",
-            C:"",
-            D:"",
+            A:"490",
+            B:"500",
+            C:"421",
+            D:"4",
         }
     }
 
